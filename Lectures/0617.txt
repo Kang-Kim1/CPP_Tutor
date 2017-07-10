@@ -1,0 +1,41 @@
+[06/17]
+- Comment (same as Java)
+
+- Standard C++ input : cin 
+
+- Loops
+  ㄴ For
+  ㄴ While
+
+- Conditional
+  ㄴ Switch
+  ㄴ If
+
+- casting 
+  ㄴ int => float/double : (float)/(double)
+  ㄴ float/double => int : (int)
+  ㄴ string => int : stoi()
+  ㄴ int => string : to_string()
+
+* practice *
+Code a simple program called "Guess my number"
+- You have fixed number
+- User enter a number to guess your number
+  ㄴ If user finds your number, then ask user name and finally print "[username]!, you got my number! => [your number]"
+  ㄴ If user entered wrong number, then print "Sorry, try again!", and give user another chance
+  ㄴ Print a hint message if user input is  [your number] - 5 <= [user input] => [your number] + 5
+  ㄴ If input is -1 then exit
+- User have only five chances
+- Secret code 8989 increases number of chance 
+
+- Pointer(★★★★★★)
+  ㄴ varialbe to store the memory address 
+     * with memory address we can : easily, quickly access into data, manage address, ... 
+     * efficient for data structure 
+     * pointer itself has a fixed size
+  ㄴ Most important concept of C
+  ㄴ put * after datae type makes as a pointer (ex. int* a;)
+  ㄴ & in front of variable returns the reference whici is the address of the first memory block
+  ㄴ difference between call-by-value and call-by-reference 
+  (toturial : https://www.youtube.com/watch?v=h-HBipu_1P0)
+  ㄴ practice with array

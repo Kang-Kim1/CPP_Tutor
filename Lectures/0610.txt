@@ -1,0 +1,41 @@
+[06/10]
+- C++?
+  => Also OO language based on C
+  => Many syntax are similar as C 
+ (which means we will learn C as well..)
+  => file extension? -> .cpp
+  => linux command for c++ : g++ / for Java : javac
+
+- main function 
+  => difference between Java main method?
+  => return ? 0 = success, 1 = failure
+
+- include<header_file>
+  => same as import statement in Java
+  => header_file : file containing declarations and macro definition to be shared between several source files
+     (like class)
+  => iostream.h(in lib)
+     * standard input/output stream
+     * cout, endl, printf, ...  
+  => print out to console
+     * cout 
+     * << / >> : into / out from
+     * printf 
+     * next line : endl, \n
+  (http://www.cplusplus.com/forum/articles/10627/)
+
+- using namespace namespace_name
+  => specific space with a name
+  => std : is the namespace defined in iostream
+  => would std still compilable without any header-file? Yes, because std is implicitly defined
+  => without namespace declaration : std::sth
+  => easier way to understand this concept
+     * 2 header files with same name of function
+     * do you have to change the name for one of functions? yes, in C
+     * in C++, namespaece is the solution to figure this problem
+     (http://itguru.tistory.com/136)
+
+
+practice : 
+  Let's print out with using cout with multiple << statements 
+
